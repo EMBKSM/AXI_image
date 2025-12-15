@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+=== Simulation Start ===
+=== Simulation Done ===
+$finish called at time : 755 ns : File "C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/tb/tb_myip.sv" Line 90

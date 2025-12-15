@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../AXI-Image_ip-workspace/axi/src/myip.v" \
+"../../../../../AXI-Image_ip-workspace/axi/src/myip_master_stream_v1_0_M00_AXIS.v" \
+"../../../../../AXI-Image_ip-workspace/axi/src/myip_slave_lite_v1_0_S00_AXI.v" \
+"../../../../../AXI-Image_ip-workspace/axi/src/myip_slave_stream_v1_0_S00_AXIS.v" \
+"../../../../../AXI-Image_ip-workspace/axi/src/skid_buffer.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../AXI-Image_ip-workspace/axi/tb/tb_myip.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip.v,1765771416,verilog,,C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_master_stream_v1_0_M00_AXIS.v,,myip_v1_0,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_master_stream_v1_0_M00_AXIS.v,1765767779,verilog,,C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_slave_lite_v1_0_S00_AXI.v,,my_image_ip_v1_0_M00_AXIS,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_slave_lite_v1_0_S00_AXI.v,1765767396,verilog,,C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_slave_stream_v1_0_S00_AXIS.v,,myip_slave_lite_v1_0_S00_AXI,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/myip_slave_stream_v1_0_S00_AXIS.v,1765767703,verilog,,C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/skid_buffer.v,,my_image_ip_v1_0_S00_AXIS,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/src/skid_buffer.v,1765768188,verilog,,,,skid_buffer,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI-Image_ip-workspace/axi/tb/tb_myip.sv,1765769072,systemVerilog,,,,tb_myip,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/work/github/AXI_image/AXI_image/AXI_image.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
