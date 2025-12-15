@@ -20,14 +20,14 @@ The system follows a stream-based processing pipeline structure:
 
 ```mermaid
 graph LR
-    DMA_MM2S[DMA (MM2S)] -->|AXI Stream| S00_AXIS
+    DMA_MM2S["DMA (MM2S)"] -->|AXI Stream| S00_AXIS
     subgraph "FPGA Image IP Top"
         S00_AXIS --> SkidBuffer_In
-        SkidBuffer_In --> SobelCore[Sobel Edge Detection]
+        SkidBuffer_In --> SobelCore["Sobel Edge Detection"]
         SobelCore --> SkidBuffer_Out
         SkidBuffer_Out --> M00_AXIS
     end
-    M00_AXIS -->|AXI Stream| DMA_S2MM[DMA (S2MM)]
+    M00_AXIS -->|AXI Stream| DMA_S2MM["DMA (S2MM)"]
 ```
 
 ### Key Features
